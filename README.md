@@ -57,12 +57,16 @@ Postman
 
 ## ✨ 주요 기능
 
-- **회원 관리**: 회원가입, 로그인/로그아웃, 마이페이지, 회원 정보 수정, Spring Security 기반 인증/권한 관리
-- **충전소 관리**: 충전소 등록/수정/삭제, 전체/카테고리별/내 충전소 조회, 즐겨찾기
-- **게시판**: 공지사항 게시판, 게시글 작성/수정/삭제
-- **커뮤니티**: 실시간 채팅(WebSocket), AI 충전소 챗봇(Gemini), 1:1 쪽지 기능
+- **회원 관리**: 회원가입, 로그인/로그아웃, 마이페이지, 회원 정보 수정, Spring Security 기반 비밀번호 암호화   
+- **충전소 지도/API 연동**: 실시간 충전소 위치·상태·혼잡도(공공데이터 API), 주변 카페·편의점 등 부가 정보 표시  
+- **고장 신고 & 처리**: 회원의 고장신고/관리자 처리, 처리 상태 확인
+- **공지사항 및 자유게시판**: 커뮤니티 기능, 게시글/댓글 작성·수정·삭제
+- **관리자 페이지**: 고장 처리, 회원 관리, 예약 내역 관리
+- **예약/결제 기능**: 충전소 예약, 예약금 결제(토스 API)
+- **혼잡도 예측**: 시간대별 실시간 충전소 이용 혼잡도 예측
 
 ---
+
 
 # ✨ UI / 기능 상세
 
@@ -72,11 +76,16 @@ Postman
 <summary><strong>✨ UI/UX 테마 보기</strong></summary>
 
 ### ◈ 메인 페이지 구성
-<img src="" alt="메인 페이지" width="100%"/>
+<img src="https://github.com/user-attachments/assets/f1648604-1c5e-46de-b2ff-ef36c885ef21" alt="메인 페이지" width="100%"/>
+
 
 ### ◈ 로그인/회원가입
-<img src="" alt="로그인" width="100%"/>
-<img src="" alt="회원가입" width="100%"/>
+<img src="https://github.com/user-attachments/assets/686caee1-7d11-48b4-894d-4f37a7abe5b1" alt="로그인" width="100%"/>
+<img src="https://github.com/user-attachments/assets/2d8b626e-d032-4218-bacb-34673bfe6955" alt="회원가입" width="100%"/>
+
+### ◈ 아이디/비밀번호 찾기
+<img src="https://github.com/user-attachments/assets/9c259fdd-88e4-46de-b179-c8dd4115f04c" alt="아이디 /비밀번호 찾기" width="100%"/>
+<img src="https://github.com/user-attachments/assets/c492c839-aa1f-4229-bd1c-355af70a325c" alt="이메일" width="100%"/>
 
 ### ◈ Footer
 <img src="" alt="Footer" width="100%"/>
@@ -105,24 +114,22 @@ Postman
 <summary><strong>✨ 충전소 정보 보기</strong></summary>
 
 ### ◈ 충전소 목록
-<img src="" alt="충전소 목록" width="100%"/>
+<img src="https://github.com/user-attachments/assets/96440a1c-b75e-459a-bd27-d1dd32039f47" alt="충전소 목록" width="100%"/>
 
-### ◈ 카테고리별 검색 (충전기 타입별, 지역별)
-<img src="" alt="카테고리 검색" width="100%"/>
-<img src="" alt="검색 결과" width="100%"/>
 
 ### ◈ 충전소 상세 정보
-<img src="" alt="충전소 상세" width="100%"/>
+<img src="https://github.com/user-attachments/assets/66695ca6-443d-44bc-be7c-3e804c8f9d77" alt="충전소 상세" width="100%"/>
 
-### ◈ 충전소 등록
-<img src="" alt="충전소 등록" width="100%"/>
-
-### ◈ AI 충전소 추천
-<img src="" alt="AI 챗봇" width="100%"/>
+### ◈ 충전소 주변 카페
+<img src="https://github.com/user-attachments/assets/dbdadde8-b8c5-4eec-a10b-e340e66e82b9" alt="충전소 주변 카페" width="100%"/>
+  
+### ◈ 충전소 혼잡도
+<img src="https://github.com/user-attachments/assets/b79696ac-5fd9-4a11-9432-e339e7a4c331" alt="충전소 혼잡도" width="100%"/>
+<img width="766" height="849" alt="image" src= />
 
 ### ◈ 즐겨찾기
 <details><summary>즐겨찾기 UI</summary>
-<img src="" alt="즐겨찾기 버튼" width="100%"/>
+<img src="https://github.com/user-attachments/assets/b2a2fe1f-c2cd-485b-b712-f0f6c4aa4676"  alt="즐겨찾기 버튼" width="100%"/>
 </details>
 
 <details><summary>즐겨찾기 목록</summary>
@@ -136,47 +143,69 @@ Postman
 <details>
 <summary><strong>✨ 마이페이지 보기</strong></summary>
 
-<img src="" alt="마이페이지 메인" width="100%"/>
-<img src="" alt="내 충전소 관리" width="100%"/>
+<img src="https://github.com/user-attachments/assets/d304245b-65b5-4fa2-97c4-1317e9b9fbc4" alt="마이페이지 메인" width="100%"/>
+<img src="https://github.com/user-attachments/assets/d345b8f9-4bfb-4609-862b-71b1026fe76a" alt="내 예약 취소 내역" width="100%"/>
 
-<details><summary>추천 회원 표시</summary>
-<img src="" alt="추천 회원" width="100%"/>
+
+<details><summary>고장 신고 내역 </summary>
+<img src="https://github.com/user-attachments/assets/9bfaf87d-6fa5-4963-a3d7-7c5a7424b499" alt="추천 회원" width="100%"/>
 </details>
 
-<details><summary>회원 프로필</summary>
-<img src="" alt="프로필 사진" width="100%"/>
-</details>
 
 </details>
 
 ---
 
 <details>
-<summary><strong>✨ 쪽지 보내기</strong></summary>
+<summary><strong>✨ 고장 신고 </strong></summary>
 
-### 받은 쪽지함
+<details><summary>고장 신고 접수 </summary>
+<img src="https://github.com/user-attachments/assets/0816f1db-60f7-4eba-9c70-d924cdcef189" alt="추천 회원" width="100%"/>
+</details>
 
-### 보낸 쪽지함
+<details><summary>관리자 고장 신고 확인 </summary>
+<img src="https://github.com/user-attachments/assets/0537a5ab-2f48-41c3-aed9-0ffb07a5a614" alt="추천 회원" width="100%"/>
+</details>
 
-### 쪽지 보내기
+<details><summary>고장신고 상세 보기 </summary>
+<img src="https://github.com/user-attachments/assets/b3387057-90f4-484c-82f1-fac675fb15c7" alt="추천 회원" width="100%"/>
+</details>
 
-### 쪽지 상세
+---
 
+---
+
+<details>
+<summary><strong>✨ 예약 결제 기능 </strong></summary>
+
+<details><summary>에약 접수 </summary>
+<img src="https://github.com/user-attachments/assets/25e49347-116e-4ce1-bb60-4b2c9717b981" alt="추천 회원" width="100%"/>
+</details>
+
+<details><summary>예약 접수 방법 </summary>
+<img src="https://github.com/user-attachments/assets/0d124f0b-4f05-41c2-ad11-115f838879d3" alt="추천 회원" width="100%"/>
+</details>
+
+<details><summary>결제 확인 기능 </summary>
+<img src="https://github.com/user-attachments/assets/e13a73af-bf95-4701-82a8-43dfa71552e0" alt="추천 회원" width="100%"/>
 </details>
 
 ---
 
 <details>
 <summary><strong>✨ 게시판 보기</strong></summary>
+<img src="https://github.com/user-attachments/assets/cca601d6-b109-4a06-94ed-b90c4a7c3706" width="100%"/>
 </details>
 
 ---
 
 <details>
 <summary><strong>✨ 공지사항 보기</strong></summary>
+<img src="https://github.com/user-attachments/assets/56ea9b5c-9e2c-4dae-9eed-633dfb8eac61" width="100%"/>
 </details>
 
 ---
+
 
 ## 🧬 ERD & 테이블 명세서
 
