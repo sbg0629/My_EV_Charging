@@ -1,4 +1,4 @@
-## EV Charging Station Management System
+<img width="973" height="903" alt="image" src="https://github.com/user-attachments/assets/c2e0f5c9-b017-460d-96c6-e508f08b967d" />## EV Charging Station Management System
 
 **충전소 관리 시스템**은 전기차 충전소 정보를 기반으로 충전소를 공유하고, 사용자에게 최적의 충전소를 추천하는 플랫폼입니다.
 사용자들끼리 실시간 채팅을 통해 충전소 정보를 공유하고 이용 팁을 나눌 수 있습니다.
@@ -213,80 +213,29 @@ Postman
 ## 🧬 ERD & 테이블 명세서
 
 ### ERD
+<img src="https://github.com/user-attachments/assets/b7364f55-d03d-4e90-90f7-faef035c9742" width="100%"/>
+<img src="https://github.com/user-attachments/assets/a9445204-8b80-4960-a2ae-4f7fbda08747" width="100%"/>
 
 <details>
 <summary><strong>테이블 세부 명세서</strong></summary>
 
+<img src="https://github.com/user-attachments/assets/81bd8cf7-b5a5-4fca-b31f-26ca6bf26d6a" width="100%"/>
+<img src="https://github.com/user-attachments/assets/1b24cb3e-d9d8-48e8-a6ed-0433ce7a2ff8" width="100%"/>
+<img src="https://github.com/user-attachments/assets/bf485e58-7c45-46cf-bbef-3a65c06ea891" width="100%"/>
+<img src="https://github.com/user-attachments/assets/1c0c38db-6470-4f66-b806-f12b7263bf2e" width="100%"/>
+<img src="https://github.com/user-attachments/assets/c2f6de73-c821-464c-be76-3504f85b402d" width="100%"/>
 </details>
 
 ---
 
-## 👥 팀원 소개
-
-<br>
-
-<h3 align="center">Charging Station Team</h3>
-
-<br>
-
-<div align="center">
-
-<table>
-  <tr>
-    <!-- 팀원 1(팀장) -->
-    <td align="center">
-      <a href="https://github.com/sbg0629">
-        <img src="https://github.com/sbg0629.png" width="130" height="130" style="border-radius: 10px;">
-        <br><br>
-        <b>손봉균 (팀장)</b>
-      </a>
-      <br>
-      <sub>풀스택 - 로그인, 회원가입, 추천 회원, 실시간 채팅, 구글 소셜로그인, 페이징 처리, 게시판</sub>
-    </td>
-    <!-- 팀원 2 -->
-    <td align="center">
-       <a href="https://github.com/LeeHyunJin323">
-      <img src="https://github.com/LeeHyunJin323.png" width="130" height="130" style="border-radius: 10px;">
-      <br><br>
-      <b>이현진</b>
-          </a>
-      <br>
-      <sub>백엔드 - 마이페이지, 시큐리티, 네이버·카카오 소셜로그인, 댓글/대댓글, 공지 사항</sub>
-    </td>
-    <!-- 팀원 3 -->
-    <td align="center">
-       <a href="https://github.com/RollingSoap">
-      <img src="https://github.com/RollingSoap.png" width="130" height="130" style="border-radius: 10px;">
-      <br><br>
-      <b>박동영</b>
-          </a>
-      <br>
-      <sub>백엔드 - 충전소 페이지, 카테고리 구현, Gemini 챗봇, 이메일 인증</sub>
-    </td>
-    <!-- 팀원 4 -->
-    <td align="center">
-       <a href="https://github.com/Rootplant">
-      <img src="https://github.com/Rootplant.png" width="130" height="130" style="border-radius: 10px;">
-      <br><br>
-      <b>정찬호</b>
-          </a>
-      <br>
-      <sub>백엔드 - 충전소 상세페이지, 쪽지 기능, 이미지 처리</sub>
-    </td>
-  </tr>
-</table>
-
-</div>
-
-<br>
-
----
 
 ## 🧩 기타 특장점
 
-- **JWT + Spring Security 기반 인증/인가**
-- **WebSocket 기반 실시간 채팅**
-- **REST API 기반 통신 구성**
-- **컴포넌트 기반 UI 구조 채택**
-
+- **Spring Security 기반 인증/인가**: 비밀번호 암호화 및 소셜 로그인(Kakao, Google, Naver) 연동
+- **공공데이터 API 연동**: 실시간 충전소 정보 및 충전기 상태 조회
+- **카카오맵 API 활용**: 클러스터링을 통한 충전소 위치 시각화 및 주변 시설 정보 제공
+- **Toss Payments 결제 연동**: 충전소 예약 시 예약금 결제 시스템 구현
+- **MyBatis 기반 데이터 처리**: Oracle DB와 효율적인 SQL 매핑 구조
+- **JSP 기반 MVC 패턴**: 체계적인 View-Controller 분리 구조
+- 
 ---
