@@ -125,7 +125,7 @@ Postman
   
 ### ◈ 충전소 혼잡도
 <img src="https://github.com/user-attachments/assets/b79696ac-5fd9-4a11-9432-e339e7a4c331" alt="충전소 혼잡도" width="100%"/>
-<img width="766" height="849" alt="image" src= />
+
 
 ### ◈ 즐겨찾기
 <details><summary>즐겨찾기 UI</summary>
