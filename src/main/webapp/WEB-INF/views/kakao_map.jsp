@@ -458,7 +458,7 @@
     <div id="map"></div>
 
     <%-- (주의) appkey는 본인의 키로, libraries=services가 포함되어야 합니다 --%>
-    <script src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=ed669a0f0c7b004abc0c496f1e2ac4a0&libraries=services,clusterer"></script>
+    <script src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=&libraries=services,clusterer"></script>
     
     <script>
     var map; 

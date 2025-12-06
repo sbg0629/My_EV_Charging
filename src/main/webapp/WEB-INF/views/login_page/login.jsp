@@ -2,17 +2,7 @@
 <%@ page import="java.util.ArrayList" %>
 <%@ page import="com.boot.Main_Page.dto.ElecDTO" %>
 <%@ page import="com.fasterxml.jackson.databind.ObjectMapper" %>
-<%
-    // 네이버 설정
-    String naverClientId = "4J0_WLp1ESBS1kMGnjX9"; 
-    String naverRedirectUri = "http://localhost:8484/login/oauth2/code/naver"; 
-    String state = "RANDOM_STATE"; 
-    
-    // 카카오 설정 추가
-	String kakaoClientId = "b78f006042277f7decbde1f0f797012f";  
-		
-	String kakaoRedirectUri = "http://localhost:8484/oauth2/callback/kakao";
-%>
+
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -229,7 +219,7 @@
 			    </a>
 
 			    <!-- 구글 로그인 (이미지 로고 사용) -->
-			    <a href="https://accounts.google.com/o/oauth2/v2/auth?client_id=461483322193-krdf6oc8alee5hsnqlcp9tca8nr8qql2.apps.googleusercontent.com&redirect_uri=http://localhost:8484/login/oauth2/code/google&response_type=code&scope=profile email openid" 
+			    <a href="https://accounts.google.com/o/oauth2/v2/auth?client_id=&redirect_uri=http://localhost:8484/login/oauth2/code/google&response_type=code&scope=profile email openid" 
 			       class="social-logo-btn google-logo-btn" title="Google 로그인">
 			        <img src="https://recipe1.ezmember.co.kr/img/mobile/2022/icon_sns_g2.png?v.1" alt="Google 로고">
 			    </a>
