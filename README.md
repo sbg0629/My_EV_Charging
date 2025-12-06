@@ -2,6 +2,7 @@
 
 **충전소 관리 시스템**은 전기차 충전소 정보를 기반으로 충전소를 공유하고, 사용자에게 최적의 충전소를 추천하는 플랫폼입니다.
 사용자들끼리 실시간 채팅을 통해 충전소 정보를 공유하고 이용 팁을 나눌 수 있습니다.
+
 ---
 
 <img src="images/MoodSync_desc.png" alt="포스터" width="100%"/>
@@ -143,65 +144,67 @@ Postman
 <details>
 <summary><strong>✨ 마이페이지 보기</strong></summary>
 
+### ◈ 마이페이지 메인
 <img src="https://github.com/user-attachments/assets/d304245b-65b5-4fa2-97c4-1317e9b9fbc4" alt="마이페이지 메인" width="100%"/>
+
+### ◈ 내 예약 취소 내역
 <img src="https://github.com/user-attachments/assets/d345b8f9-4bfb-4609-862b-71b1026fe76a" alt="내 예약 취소 내역" width="100%"/>
 
-
-<details><summary>고장 신고 내역 </summary>
-<img src="https://github.com/user-attachments/assets/9bfaf87d-6fa5-4963-a3d7-7c5a7424b499" alt="추천 회원" width="100%"/>
-</details>
-
+### ◈ 고장 신고 내역
+<img src="https://github.com/user-attachments/assets/9bfaf87d-6fa5-4963-a3d7-7c5a7424b499" alt="고장 신고 내역" width="100%"/>
 
 </details>
 
 ---
 
 <details>
-<summary><strong>✨ 고장 신고 </strong></summary>
+<summary><strong>✨ 고장 신고 기능</strong></summary>
 
-<details><summary>고장 신고 접수 </summary>
-<img src="https://github.com/user-attachments/assets/0816f1db-60f7-4eba-9c70-d924cdcef189" alt="추천 회원" width="100%"/>
+### ◈ 고장 신고 접수
+<img src="https://github.com/user-attachments/assets/0816f1db-60f7-4eba-9c70-d924cdcef189" alt="고장 신고 접수" width="100%"/>
+
+### ◈ 관리자 고장 신고 확인
+<img src="https://github.com/user-attachments/assets/0537a5ab-2f48-41c3-aed9-0ffb07a5a614" alt="관리자 고장 신고 확인" width="100%"/>
+
+### ◈ 고장신고 상세 보기
+<img src="https://github.com/user-attachments/assets/b3387057-90f4-484c-82f1-fac675fb15c7" alt="고장신고 상세 보기" width="100%"/>
+
 </details>
-
-<details><summary>관리자 고장 신고 확인 </summary>
-<img src="https://github.com/user-attachments/assets/0537a5ab-2f48-41c3-aed9-0ffb07a5a614" alt="추천 회원" width="100%"/>
-</details>
-
-<details><summary>고장신고 상세 보기 </summary>
-<img src="https://github.com/user-attachments/assets/b3387057-90f4-484c-82f1-fac675fb15c7" alt="추천 회원" width="100%"/>
-</details>
-
----
 
 ---
 
 <details>
-<summary><strong>✨ 예약 결제 기능 </strong></summary>
+<summary><strong>✨ 예약 결제 기능</strong></summary>
 
-<details><summary>에약 접수 </summary>
-<img src="https://github.com/user-attachments/assets/25e49347-116e-4ce1-bb60-4b2c9717b981" alt="추천 회원" width="100%"/>
-</details>
+### ◈ 예약 접수
+<img src="https://github.com/user-attachments/assets/25e49347-116e-4ce1-bb60-4b2c9717b981" alt="예약 접수" width="100%"/>
 
-<details><summary>예약 접수 방법 </summary>
-<img src="https://github.com/user-attachments/assets/0d124f0b-4f05-41c2-ad11-115f838879d3" alt="추천 회원" width="100%"/>
-</details>
+### ◈ 예약 접수 방법
+<img src="https://github.com/user-attachments/assets/0d124f0b-4f05-41c2-ad11-115f838879d3" alt="예약 접수 방법" width="100%"/>
 
-<details><summary>결제 확인 기능 </summary>
-<img src="https://github.com/user-attachments/assets/e13a73af-bf95-4701-82a8-43dfa71552e0" alt="추천 회원" width="100%"/>
+### ◈ 결제 확인 기능
+<img src="https://github.com/user-attachments/assets/e13a73af-bf95-4701-82a8-43dfa71552e0" alt="결제 확인 기능" width="100%"/>
+
 </details>
 
 ---
 
 <details>
 <summary><strong>✨ 게시판 보기</strong></summary>
-<img src="https://github.com/user-attachments/assets/cca601d6-b109-4a06-94ed-b90c4a7c3706" width="100%"/>
+
+### ◈ 게시판
+<img src="https://github.com/user-attachments/assets/cca601d6-b109-4a06-94ed-b90c4a7c3706" alt="게시판" width="100%"/>
+
 </details>
 
 ---
 
 <details>
 <summary><strong>✨ 공지사항 보기</strong></summary>
-<img src="https://github.com/user-attachments/assets/56ea9b5c-9e2c-4dae-9eed-633dfb8eac61" width="100%"/>
+
+### ◈ 공지사항
+<img src="https://github.com/user-attachments/assets/56ea9b5c-9e2c-4dae-9eed-633dfb8eac61" alt="공지사항" width="100%"/>
+
 </details>
 
 ---
