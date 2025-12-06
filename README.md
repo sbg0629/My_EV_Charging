@@ -1,11 +1,5 @@
-<img width="973" height="903" alt="image" src="https://github.com/user-attachments/assets/c2e0f5c9-b017-460d-96c6-e508f08b967d" />## EV Charging Station Management System
-
 **충전소 관리 시스템**은 전기차 충전소 정보를 기반으로 충전소를 공유하고, 사용자에게 최적의 충전소를 추천하는 플랫폼입니다.
 사용자들끼리 실시간 채팅을 통해 충전소 정보를 공유하고 이용 팁을 나눌 수 있습니다.
-
----
-
-<img src="images/MoodSync_desc.png" alt="포스터" width="100%"/>
 
 ---
 
