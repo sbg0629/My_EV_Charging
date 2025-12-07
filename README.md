@@ -83,7 +83,7 @@ Postman
 <img src="https://github.com/user-attachments/assets/c492c839-aa1f-4229-bd1c-355af70a325c" alt="이메일" width="100%"/>
 
 ### ◈ Footer
-<img src="" alt="Footer" width="100%"/>
+<img src="https://github.com/user-attachments/assets/4f0efdfa-84bc-4eb2-be9e-af2eb1825a49" alt="Footer" width="100%"/>
 
 <details><summary>운영 정책</summary>
 <img src="https://github.com/user-attachments/assets/f05d9b73-5aa3-49cb-abd2-fa949ea6112b" alt="운영 정책" width="100%"/>\
@@ -104,6 +104,7 @@ Postman
 </details>
 
 </details>
+
 
 ---
 
