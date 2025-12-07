@@ -85,20 +85,22 @@ Postman
 ### ◈ Footer
 <img src="" alt="Footer" width="100%"/>
 
-<details><summary>회사 소개</summary>
-<img src="" alt="회사 소개" width="100%"/>
+<details><summary>운영 정책</summary>
+<img src="https://github.com/user-attachments/assets/f05d9b73-5aa3-49cb-abd2-fa949ea6112b" alt="운영 정책" width="100%"/>\
+<img src="https://github.com/user-attachments/assets/5b6b155d-c3fe-4ac4-b401-1bccfc1e891c" alt="운영 정책" width="100%"/>
+<img src="https://github.com/user-attachments/assets/0d6288d1-9ec8-40fd-a795-2eb2f3744ed1" alt="운영 정책" width="100%"/>
 </details>
 
 <details><summary>이용약관</summary>
-<img src="" alt="이용약관" width="100%"/>
+<img src="https://github.com/user-attachments/assets/b181a1b6-679d-4800-b5c3-0d741248e65d" alt="이용약관" width="100%"/>
 </details>
 
 <details><summary>개인정보 처리방침</summary>
-<img src="" alt="개인정보 처리방침" width="100%"/>
+<img src="https://github.com/user-attachments/assets/9eb18387-6a34-4fc5-ad79-5363f9345b68" alt="개인정보 처리방침" width="100%"/>
 </details>
 
 <details><summary>고객센터</summary>
-<img src="" alt="고객센터" width="100%"/>
+<img src="https://github.com/user-attachments/assets/9fca05d7-3911-41e1-94b4-47500c61cfb8" alt="고객센터" width="100%"/>
 </details>
 
 </details>
